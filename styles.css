@@ -1,0 +1,61 @@
+body {
+    background-color: #f8f9fa;
+}
+.widget-preview {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.widget-code {
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 12px;
+    border-radius: 8px;
+    font-family: monospace;
+    overflow-x: auto;
+    position: relative;
+}
+.widget-code p {
+    margin: 0;
+}
+.copy-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #61dafb;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #000;
+    font-weight: bold;
+}
+.widget-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.form-control {
+    margin-bottom: 16px;
+}
+.hidden {
+    display: none;
+}
+.input-group-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    height: auto;
+}
+.input-group-text i {
+    color: #6c757d;
+    font-size: 1.2rem; /* Adjust the icon size */
+    height: 1.5rem;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
