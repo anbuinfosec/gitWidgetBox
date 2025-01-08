@@ -65,7 +65,7 @@ document.getElementById('widget-form').addEventListener('submit', function(event
     const widgetPreview = document.getElementById('widget-preview');
     widgetPreview.innerHTML = `<a href="https://github.com/${username}" target="_blank"><img src="${widgetUrl}" alt="GitHub Widget"></a>`;
     const widgetCode = document.getElementById('widget-code');
-    widgetCode.querySelector('p').textContent = `![GitHub Widget](${widgetUrl})`;
+    widgetCode.querySelector('p').textContent = `[![GitHub Widget](${widgetUrl})](https://github.com/${username})`;
 });
 
 function copyToClipboard() {
